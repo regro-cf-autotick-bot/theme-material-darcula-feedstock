@@ -1,5 +1,5 @@
 {% set name = "theme-material-darcula" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/theme-material-darcula-{{ version }}.tar.gz
-  sha256: dc396222ed89c0c21913d6d5aa9410e255439e5a2741f3e1838c613da8e188a4
+  sha256: 0b90dd4fa1a992734955cb5f6e58be37a3989627f85368f9208c70288c4cfcca
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/adhadse/theme-material-darcula
-  summary: Darcula theme for JupyterLab with Material design. Modelled after the classic Intellij theme.
+  summary: A Jupyterlab theme inspired by JetBrains IDE's Darcula scheme and Material Design.
   license: BSD-3-Clause
   license_file: LICENSE
 

@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/theme-material-darcula-feedstock/blob/main/LICENSE.txt)
 
-Summary: Darcula theme for JupyterLab with Material design. Modelled after the classic Intellij theme.
+Summary: A Jupyterlab theme inspired by JetBrains IDE's Darcula scheme and Material Design.
 
 Current build status
 ====================

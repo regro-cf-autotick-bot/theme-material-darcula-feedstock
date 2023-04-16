@@ -1,5 +1,5 @@
 {% set name = "theme-material-darcula" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/theme-material-darcula-{{ version }}.tar.gz
-  sha256: 0b90dd4fa1a992734955cb5f6e58be37a3989627f85368f9208c70288c4cfcca
+  sha256: ab5e6ad356d5134b9dc4d3775e875a4aa1747aa29f4a3d0ddb3859d471ed036d
 
 build:
   noarch: python

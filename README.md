@@ -1,11 +1,11 @@
-About theme-material-darcula
-============================
+About theme-material-darcula-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/theme-material-darcula-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/adhadse/theme-material-darcula
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/theme-material-darcula-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Jupyterlab theme inspired by JetBrains IDE's Darcula scheme and Material Design.
 

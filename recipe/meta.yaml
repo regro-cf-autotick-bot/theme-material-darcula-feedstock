@@ -6,24 +6,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/theme-material-darcula-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/theme-material-darcula-{{ version }}.tar.gz
   sha256: ab5e6ad356d5134b9dc4d3775e875a4aa1747aa29f4a3d0ddb3859d471ed036d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - jupyter_packaging >=0.7.9
     - jupyterlab >=3.0.0
     - nodejs
     - pip
     - setuptools >=40.8.0
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - jupyterlab >=3.0.0
 
 test:
@@ -31,6 +31,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/adhadse/theme-material-darcula
